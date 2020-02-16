@@ -14,7 +14,7 @@ Constraints:
 1<=|S1|<=1000
 1<=|S2|<=1000
 
-Example:
+Examples:
 
 Input:
 4
