@@ -1,0 +1,95 @@
+roman_to_integer.py
+longest_palindrome.py
+
+
+yet to do:
+roman_to_integer.py
+longest_palindrome.py
+Balanced Parenthesis
+
+
+added linked list in reverse order
+
+
+
+
+================================================================================
+Discipline
+Distraction Vs Direction
+Don't Prove...Improve
+
+
+================================================================================
+Strategy:
+================================================================================
+Topics: GoGs
+Theory: GoodRich/Cormen
+Practice: HackerRank | GoGs | LeetCode | CareerCup | DailyInterviewPro
+
+
+
+
+================================================================================
+Data Structures:
+================================================================================
+
+
+Arrays
+Matrix
+Linked List, Double Linked List, Circular Linked List
+Stacks
+Queue & Deques
+Binary Tree
+Binary SearchTree
+AVL Tree
+Trie
+Red Black Tree[Only Theory]
+
+
+
+
+
+
+
+
+
+
+================================================================================
+Algorithms:
+================================================================================
+Sorting
+
+Heap
+Hashing
+Graph
+
+Pattern Searching
+Dynamic Programming
+Recursion/Backtracking
+Shortest Path Algo
+
+
+
+
+
+
+
+
+================================================================================
+Other Topics:
+================================================================================
+Trees
+Binomial Heap
+Fibonacci Heap
+Skip List
+Segment Trees
+Splay Trees
+Interval Trees
+Binary Indexed Tree
+B-Tree, B+ Tree
+
+Algo
+Searching Technique
+Divide & Conquer
+Greedy
+Pattern Searching
