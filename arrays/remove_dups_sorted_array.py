@@ -34,10 +34,18 @@ Expected Auxiliary Space: O(1)
 Constraints:
 1 <= N <= 104
 1 <= A[i] <= 106
+
+
+UC 1 : 1 6 6 8 9 10 : 1 6 8 9 10
+UC 2 : 6 6 : 6
+UC 3 : 1 : 1
+UC 4 : 1 2 : 1 2
+
 '''
 
 
 class Solution:
+    # Fails in UC 3/4
     def remove_duplicate(self, A, N):
         n = 1
         for num in A:
@@ -47,6 +55,15 @@ class Solution:
             n += 1
         return len(A)
 
+    def remove_duplicate(self, A, N):
+        if N != 1:
+            i = 1
+            for num in A:
+                if i < len(A) and A[i-1] == A[i]:
+                    A.pop(i)
+                else:
+                    i+=1
+        return len(A)
 
 if __name__ == '__main__':
     A = [2, 2, 2, 2, 2, 1, 3, 4, 5, 5, 7, 3, 6, 4, 4, 10]
