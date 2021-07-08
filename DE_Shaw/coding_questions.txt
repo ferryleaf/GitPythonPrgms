@@ -1,0 +1,24 @@
+
+Off-Campus DE Shaw Interview Experience:
+
+Online Test:
+Count distinct elements in every window of size k
+https://www.geeksforgeeks.org/count-distinct-elements-in-every-window-of-size-k/
+
+The painter’s partition problem
+https://www.geeksforgeeks.org/painters-partition-problem/
+
+A Product Array Puzzle
+https://www.geeksforgeeks.org/a-product-array-puzzle/
+
+Largest Sum Contiguous Subarray
+https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/
+
+Check if a given graph is tree or not
+https://www.geeksforgeeks.org/check-given-graph-tree/
+
+Mobile Numeric Keypad Problem
+https://www.geeksforgeeks.org/mobile-numeric-keypad-problem/
+
+Closest Palindrome Number (absolute difference Is min)
+https://www.geeksforgeeks.org/closest-palindrome-number-whose-absolute-difference-min/

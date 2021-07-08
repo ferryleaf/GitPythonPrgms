@@ -1,9 +1,75 @@
-roman_to_integer.py
+Good Questions:
+
+Arrays:
+1. Rotate Array: [arrays/rotate_array.py]
+    Given an unsorted array arr[] of size N, rotate it by D elements in the COUNTER CLOCKWISE DIRECTION
+
+2. Smallest Positive Missing Number: [smallest_positive_missing_number.py] Amazon
+    Given an array arr[] of size N, find the smallest positive number missing from the array
+
+3. Generate array of 'N' prime nos?
+
+4. Subarray with given sum: [arrays/subarray_with_given_sum.py] [Amazon Facebook Google Visa]
+    Given an unsorted array A of size N that contains only non-negative integers,find a continuous sub-array which adds to a given number S.
+
+5. Kadane's Algorithm [24*7 Innovation Labs Accolite Amazon Citrix D-E-Shaw FactSet Flipkart Hike Housing.com MetLife Microsoft Morgan Stanley Ola Cabs Oracle Payu Samsung Snapdeal Teradata Visa Walmart Zoho]
+
+6. Merge without Extra spaces [Amdocs Brocade Goldman Sachs Juniper Networks Linkedin Microsoft Quikr Snapdeal Synopsys Zoho]
+
+7. Merge k sorted arrays
+
+8. Rearrange an array with O(1) extra space [rearrange_an_array_with_O(1)_extra_space.py] [Amazon]
+   Given an array arr[] of size N where every element is in the range from 0 to n-1. Rearrange the given array so that arr[i] becomes arr[arr[i]].
+
+9. Trapping Rain Water
+Given an array arr[] of N non-negative integers representing the height of blocks. If width of each block is 1, compute how much water can be trapped between the blocks during the rainy season.
+
+
+
+
+Matrix
+1. Matrix Multiplication [matrix/matrix_mul.py]
+2. Spiral Traversal of Matrix [matrix/spiral_traversal_matrix.py]
+
+
+Strings
+1. Planagram [strings/missing_characters_in_planagram.py]
+2. Anagram(a word, phrase, or name formed by rearranging the letters of another, such as cinema, formed from iceman.)
+
+BitMagic
+1. swap nos
+2. power of 2
+3. xor all nos from 1 to n
+4. getfirstset bit
+5. MSB
+
+Hashing
+1. Longest Consecutive Subsequence
+2. Largest subarray with 0 sum
+3. Top K Frequent Elements in Array
+4. Sorting Elements of an Array by Frequency
+
+
+
+Yet to complete:
+Arrays:
+    Trapping Rain Water
+    Merge without Extra spaces
+    find_K_rotation.py
+
+bits:
+gray to Binary
+is number sparse
+xor all nos from 1 to n
+
+Sorting
+everything bubble_sort; insert_sort; binary_search
+
+
 longest_palindrome.py
 
 
 yet to do:
-roman_to_integer.py
 longest_palindrome.py
 Balanced Parenthesis
 
@@ -11,6 +77,10 @@ Balanced Parenthesis
 added linked list in reverse order
 
 
+================================================================================
+Top 10 algorithms in Interview Questions
+https://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/
+================================================================================
 
 
 ================================================================================
