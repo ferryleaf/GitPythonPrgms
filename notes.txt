@@ -1,6 +1,8 @@
 Good Questions:
 
 Arrays:
+In Arrays, one should have good control over indexing.
+
 1. Rotate Array: [arrays/rotate_array.py]
     Given an unsorted array arr[] of size N, rotate it by D elements in the COUNTER CLOCKWISE DIRECTION
 
@@ -76,7 +78,14 @@ Balanced Parenthesis
 
 added linked list in reverse order
 
+================================================================================
+Must Do Coding Questions for Product Based Companies
+================================================================================
+New Refined Topics:
+https://www.geeksforgeeks.org/must-do-coding-questions-for-product-based-companies/?ref=ghb
 
+Old Refined Topics:
+https://www.geeksforgeeks.org/must-do-coding-questions-for-companies-like-amazon-microsoft-adobe/
 ================================================================================
 Top 10 algorithms in Interview Questions
 https://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/
@@ -94,7 +103,7 @@ Strategy:
 ================================================================================
 Topics: GoGs
 Theory: GoodRich/Cormen
-Practice: HackerRank | GoGs | LeetCode | CareerCup | DailyInterviewPro
+Practice: HackerRank | GoGs | LeetCode | CareerCup | DailyInterviewPro | InterviewBit
 
 
 
@@ -102,23 +111,16 @@ Practice: HackerRank | GoGs | LeetCode | CareerCup | DailyInterviewPro
 ================================================================================
 Data Structures:
 ================================================================================
-
-
 Arrays
 Matrix
 Linked List, Double Linked List, Circular Linked List
 Stacks
-Queue & Deques
+Queue & Dequeue
 Binary Tree
 Binary SearchTree
 AVL Tree
 Trie
 Red Black Tree[Only Theory]
-
-
-
-
-
 
 
 
@@ -137,10 +139,6 @@ Pattern Searching
 Dynamic Programming
 Recursion/Backtracking
 Shortest Path Algo
-
-
-
-
 
 
 
