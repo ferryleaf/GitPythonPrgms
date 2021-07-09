@@ -29,11 +29,69 @@ Expected Auxiliary Space: O(N)
 Constraints:
 1 ≤ N, K ≤ 107
 1 ≤ A[i] ≤ 1018
+
+
+UC 1 :
+6 3
+1 2 3 4 5 6 ==> 3 2 1 6 5 4
+
+UC2:
+1 1
+1 ==> 1
+
+UC3:
+2 1
+1 2 ==> 1 2
+
+UC4:
+6 2
+1 2 3 4 5 6 ==> 2 1 4 3 6 5
+
+UC5:
+3 1
+1 2 3 ==> 1 2 3
+
+UC6:
+4 3
+5 6 8 9 ==> 8 6 5 9
+
+UC7:
+1 0
+1 ==> 1
+
+UC8:
+6 8
+1 2 3 4 5 6 ==> 6 5 4 3 2 1
 '''
 
 
 class Solution:
+    # Expected Time Complexity: O(N)
+    # Expected Auxiliary Space: O(N) but completed it O(4) ==> O(1)
     def reverseInGroups(self, arr, N, K):
+        if K == 0:
+            return
+        if K >= N:
+            K = N
+        i = 0
+        k1 = k2 = K - 1
+        while (i < N):
+            if i < k2:
+                temp = arr[k2]
+                arr[k2] = arr[i]
+                arr[i] = temp
+                i+=1
+                k2-=1
+            else:
+                i = k1 + 1
+                k1 = k1 + K
+                k2 = k1
+                if k1 >= N:
+                    k1 = k2 = N - 1
+                if i >= N:
+                    return
+
+    def reverseInGroups2(self, arr, N, K):
         for i in range(0, N, K):
             if i+K-1 <= N:
                 print(arr, i, i+K-1)
