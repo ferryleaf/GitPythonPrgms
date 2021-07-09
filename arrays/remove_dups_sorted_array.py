@@ -41,6 +41,7 @@ UC 2 : 6 6 : 6
 UC 3 : 1 : 1
 UC 4 : 1 2 : 1 2
 UC 5 : 1 3 4 4 : 1 3 4
+UC 6 : 2 2 2 2 2 : 2
 '''
 
 
@@ -63,6 +64,7 @@ class Solution:
                     A.pop(i)
                 else:
                     i+=1
+                print(i, A, len(A))
         return len(A)
 
 if __name__ == '__main__':
