@@ -46,25 +46,19 @@ UC 6 : 2 2 2 2 2 : 2
 
 
 class Solution:
-    # Fails in UC 3/4
     def remove_duplicate(self, A, N):
-        n = 1
-        for num in A:
-            if(A[n-1] == A[n]):
-                A.remove(num)
-                n -= 1
-            n += 1
-        return len(A)
-
-    def remove_duplicate(self, A, N):
-        if N != 1:
-            i = 1
-            for num in A:
-                if i < len(A) and A[i-1] == A[i]:
-                    A.pop(i)
+        if N != 1 and N != 0:
+            i = 0
+            n = A[i]
+            while n is not None:
+                if i < len(A)-1 and A[i] == A[i+1]:
+                    A.pop(i+1)
                 else:
                     i+=1
-                print(i, A, len(A))
+                    if i >= len(A):
+                        n = None
+                    else:
+                        n = A[i]
         return len(A)
 
 if __name__ == '__main__':
