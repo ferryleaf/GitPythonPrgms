@@ -53,7 +53,31 @@ def missingPanagram(s):
         return uniq
 
 
+# Better Solution
+def isPlanagram(a):
+    arr = [0 for i in range(26)]
+    flag = 0
+    for ch in a:
+        if ord(ch) >= 65 and ord(ch) <= 90:
+            idx = ord(ch) - 65
+        elif ord(ch) >= 97 and ord(ch) <= 122:
+            idx = ord(ch) - 97
+        arr[idx] = 1
+
+    for i in range(len(arr)):
+        if arr[i] == 0:
+            print(chr(i + 97), end= ' ')
+            flag = 1
+    if flag == 0:
+        print(-1)
+    print()
+
+
 if __name__ == '__main__':
     missingPanagram('Abc')      # defghijklmnopqrstuvwxyz
     missingPanagram('Abczvw')   # defghijklmnopqrstuxy
     missingPanagram('Abcdefghijklmnopqrstuvwxy')    # z
+
+    isPlanagram("Abcdefghijklmnopqrstuvwxy")
+    isPlanagram("defghijklmnopqrstuvwxyz")
+    isPlanagram("The quick brown fox jumps over the lazy dog")
