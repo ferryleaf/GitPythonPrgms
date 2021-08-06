@@ -1,5 +1,5 @@
 '''
-nsertion Sort is an In-Place sorting algorithm. This algorithm works in a
+Insertion Sort is an In-Place sorting algorithm. This algorithm works in a
 similar way of sorting a deck of playing cards.
 
 The idea is to start iterating from the second element of array till last
@@ -24,21 +24,22 @@ one position ahead of their current position.
 5, 6, 11, 12, 13
 '''
 
-
-def insert_sort(a):
-    N = len(a)
-    for i in range(1, N):
-        for j in range(i-1, -1, -1):
-            if a[i] < a[j]:
-                val = a[i]
-                a.pop(i)
-                a.insert(j, val)
-            else:
+def insert_sort(arr):
+    N = len(arr)
+    for i in range(N):
+        for j in range(i):
+            print("i:", i," j:", j," arr:", arr)
+            if arr[i] < arr[j]:
+                arr.insert(j, arr[i])
+                arr.pop(i+1)
                 break
-    return a
-
+    return arr
 
 if __name__ == '__main__':
+    arr = [4, 3, 2, 10, 12, 1, 5, 6]
+    print(arr)
+    print(insert_sort(arr))
+
     arr = [5, 1, 4, 2, 8]
     print(arr)
     print(insert_sort(arr))
