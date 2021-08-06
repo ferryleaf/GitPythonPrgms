@@ -34,22 +34,22 @@ def bubble_sort(arr):
     N = len(arr)
     for i in range(N-1):
         for j in range(N-i-1):
-            # if arr[j] < arr[j+1]: for descending
             if arr[j] > arr[j+1]:
                 val = arr[j]
                 arr[j] = arr[j+1]
                 arr[j+1] = val
+            print("i:", i," arr:", arr)
     return arr
 
 
 if __name__ == '__main__':
-    arr = [5, 1, 4, 2, 8]
-    print(arr)
-    print(bubble_sort(arr))
-
-    arr = [15, 13, 17, 8, 12]
-    print(arr)
-    print(bubble_sort(arr))
+    # arr = [5, 1, 4, 2, 8]
+    # print(arr)
+    # print(bubble_sort(arr))
+    #
+    # arr = [15, 13, 17, 8, 12]
+    # print(arr)
+    # print(bubble_sort(arr))
 
     arr = [15, 13, 17, 8, 4]
     print(arr)
